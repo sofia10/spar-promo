@@ -1,0 +1,40 @@
+@font-face {
+  font-family: "BPGDejaVuSans";
+  src: url("../fonts/fonts/BPGDejaVuSans.eot"); /* IE9 Compat Modes */
+  src: url("../fonts/fonts/BPGDejaVuSans.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+  url("../fonts/fonts/BPGDejaVuSans.otf") format("opentype"), /* Open Type Font */
+  url("../fonts/fonts/BPGDejaVuSans.svg") format("svg"), /* Legacy iOS */
+  url("../fonts/fonts/BPGDejaVuSans.ttf") format("truetype"), /* Safari, Android, iOS */
+  url("../fonts/fonts/BPGDejaVuSans.woff") format("woff"), /* Modern Browsers */
+  url("../fonts/fonts/BPGDejaVuSans.woff2") format("woff2"); /* Modern Browsers */
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'NinoMtavruli-reg';
+  src: url('NinoMtavruli-reg.eot');
+  src: url('NinoMtavruli-reg.eot?#iefix') format('embedded-opentype'),
+  url('NinoMtavruli-reg.woff2') format('woff2'),
+  url('NinoMtavruli-reg.woff') format('woff'),
+  url('NinoMtavruli-reg.ttf') format('truetype'),
+  url('NinoMtavruli-reg.svg#BPGNinoMtavruli') format('svg');
+  font-weight: normal;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'NinoMtavruli-Bold';
+  src: url('NinoMtavruli-Bold.eot');
+  src: url('NinoMtavruli-Bold.eot?#iefix') format('embedded-opentype'),
+  url('NinoMtavruli-Bold.woff2') format('woff2'),
+  url('NinoMtavruli-Bold.woff') format('woff'),
+  url('NinoMtavruli-Bold.ttf') format('truetype'),
+  url('NinoMtavruli-Bold.svg#BPGNinoMtavruli-Bold') format('svg');
+  font-weight: bold;
+  font-style: italic;
+}
+
+
+$primary-font: 'BPGDejaVuSans';
+$caps-font: 'NinoMtavruli-reg';
+$bold-font: 'NinoMtavruli-Bold';

@@ -1,0 +1,12 @@
+$('.list-btn').click(function(){
+    $('.market-map').stop().hide();
+    $('.market-list').stop().show();
+    $('.list-btn').addClass('active');
+    $('.map-btn').removeClass('active');
+})
+$('.map-btn').click(function(){
+    $('.market-map').stop().show();
+    $('.market-list').stop().hide();
+    $('.map-btn').addClass('active');
+    $('.list-btn').removeClass('active');
+})
